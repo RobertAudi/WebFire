@@ -23,6 +23,10 @@ WebFire:
 
 ![WebFire Directory Structure](https://img.skitch.com/20120826-8mm451a6yr82rdpnd3kji4k25r.jpg)
 
+Also make sure to add an encryption key to the config file
+(`application/config/config.php`). You can find a good encryption key
+generator [here](http://randomkeygen.com/).
+
 Usage
 -----
 
