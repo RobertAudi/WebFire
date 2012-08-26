@@ -220,6 +220,48 @@ header > nav > ul > li > a:visited
     margin-bottom: 20px;
 }
 
+#welcome h3
+{
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+ul#generation-buttons li
+{
+    display: inline;
+}
+
+ul#generation-buttons li a
+{
+    display: block;
+    float: left;
+    margin: 0 15px;
+
+    min-width: 50px;
+    text-align: center;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000000;
+    padding: 10px 27px;
+    background: -moz-linear-gradient( top, #ffffff 0%, #ffffff 18%, #dddddd);
+    background: -webkit-gradient( linear, left top, left bottom, from(#ffffff), color-stop(0.18, #ffffff), to(#dddddd));
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #cacaca;
+    -moz-box-shadow: 0px 1px 3px rgba(000,000,000,0), inset 0px 0px 3px rgba(255,255,255,1);
+    -webkit-box-shadow: 0px 1px 3px rgba(000,000,000,0), inset 0px 0px 3px rgba(255,255,255,1);
+    box-shadow: 0px 1px 3px rgba(000,000,000,0), inset 0px 0px 3px rgba(255,255,255,1);
+    text-shadow: 0px -1px 5px rgba(000,000,000,0.1), 0px 1px 0px rgba(255,255,255,1);
+}
+
+ul#generation-buttons li:first-child a
+{
+    margin-left: 0;
+}
+
+
 #wrapper form p,
 #wrapper form h3
 {
