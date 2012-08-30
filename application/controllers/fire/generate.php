@@ -12,6 +12,9 @@ class Generate extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+        if (ENVIRONMENT == 'production') {
+            show_404();
+        }
         $this->load->model('fire/template_scanner');
         $this->load->model('fire/generate_model');
         $this->load->library('form_validation');
