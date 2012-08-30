@@ -7,10 +7,15 @@ WebFire is a stand-alone web version of
 Installation
 ------------
 
-### Using fire
+### Using fire (recommended)
 
-This method is still under development and will be available soon. Also,
-it will become the recommended method to install WebFire.
+Using fire is the recommended way to install WebFire. Once [you
+installed](https://github.com/azizlight/fire#integration-with-webfire) fire, navigate to the root of your CodeIgniter project and
+run the following command:
+
+    fire web install
+
+That's it!
 
 ### Manually
 
